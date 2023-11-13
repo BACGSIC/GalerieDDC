@@ -1,0 +1,158 @@
+header {
+    display: flex;
+    color : black;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+header ul {
+    margin: 0px;
+    list-style: none;
+    font-size : 25px;
+    padding : 0 148px;
+}
+
+header ul li {
+    display: inline-block;
+    padding : 0 40px;
+    cursor: pointer;
+    font-size: 0.8 rem;
+}
+
+hr{
+    border-bottom : 1px solid;
+}
+.active {
+    background-color: #F9E9CF;
+}
+
+#localisation
+{
+    width: 397px;
+    height: 72px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#horaires
+{ 
+    width: 383px;
+    height: 40px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#identifier
+{
+    width: 93px;
+    height: 33px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#logo
+{
+    width: 200px;
+    height: 200px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+#fresque {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+}
+
+#bandeaugalerie
+{
+    width: 100%;
+    height: 239px;
+    background: url(<path-to-image>), lightgray -3.182px -0.121px / 100% 460.032% no-repeat;
+}
+
+.fresque {
+    position: relative;
+}
+
+.infos {
+    position: absolute;
+    bottom: 0;
+}
+
+.fresque::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 37%;
+    background-color: black;
+    opacity:0.6 ;
+    z-index: 1;
+}
+
+.fresque .infos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    width: 98%;
+    z-index: 2; 
+    padding: 10px;
+    align-items: center;
+}
+
+#identifier {
+    display: flex;
+    text-align: center;
+    border: 2px solid #9C917D;
+    background-color: #9C917D;
+    padding: 4px 8px; 
+    border-radius: 20px;
+    cursor: pointer;
+    height: 80%;
+    justify-content: center;
+}
+
+div p
+{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    background-color: #F6E9D1;
+    width: 100%;
+    height: 76px;
+    bottom: -10;
+}
+
+h2 {
+    justify-content: center;
+    text-align: center;
+    font-family: Inika;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
