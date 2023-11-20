@@ -1,0 +1,388 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    flex-direction: column;
+}
+
+.bas {
+    /* /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+}
+
+.bandeau {
+    background-color: #f6e9d1;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.logo img {
+    max-width: 100px;
+    flex-shrink: 0;
+}
+
+.adresse {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0px;
+    font-size: 12px;
+    max-width: 15%;
+}
+
+.partenaires {
+    margin-left: auto;
+    max-width: 172px;
+    font-size: 15px;
+}
+
+.logo-partenaire1 img {
+    max-width: 129px;
+    margin-left: 10px;
+    flex-shrink: 0;
+}
+
+.logo-partenaire2 img {
+    max-width: 140px;
+    margin-left: 10px;
+    flex-shrink: 0;
+}
+
+.RS_bas {
+    flex-direction: column;
+    display: flex;
+    margin-left: auto;
+    font-size: 15px;
+    line-height: 2.7;
+}
+
+.RS_bas i {
+    margin-right: 5px;
+}
+
+.bandeau2 {
+    background-color: #8e6852;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 30px;
+}
+
+.RS_bas2 {
+    margin-left: auto;
+    color: #fff;
+}
+
+.RS_bas2 i {
+    margin-right: 10px;
+}
+
+.text_bas {
+    font-size: 15px;
+    max-height: 20px;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    color: #fff;
+}
+
+.Baptiste {
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Baptiste ul {
+    margin: 0px;
+    list-style: none;
+    font-size: 25px;
+    padding: 0 148px;
+}
+
+.Baptiste ul li {
+    display: inline-block;
+    padding: 0 40px;
+    cursor: pointer;
+    font-size: 0.8 rem;
+}
+
+hr {
+    border-bottom: 1px solid;
+}
+.active {
+    background-color: #f9e9cf;
+}
+
+#localisation {
+    width: 397px;
+    height: 72px;
+    flex-shrink: 0;
+    color: #fff;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#horaires {
+    width: 383px;
+    height: 40px;
+    flex-shrink: 0;
+    color: #fff;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#identifier {
+    width: 93px;
+    height: 33px;
+    flex-shrink: 0;
+    color: #fff;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#logoba {
+    width: 200px;
+    height: 200px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+#fresque {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+}
+
+#bandeaugalerie {
+    width: 100%;
+    height: 239px;
+    background: url(<path-to-image>), lightgray -3.182px -0.121px / 100% 460.032% no-repeat;
+}
+
+.fresque {
+    position: relative;
+}
+
+.fresque::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 37%;
+    background-color: black;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+.fresque .infos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    width: 98%;
+    z-index: 2;
+    padding: 10px;
+    align-items: center;
+}
+
+#identifier {
+    display: flex;
+    text-align: center;
+    border: 2px solid #9c917d;
+    background-color: #9c917d;
+    padding: 4px 8px;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 80%;
+    justify-content: center;
+}
+#Horaires {
+    background-color: red;
+}
+
+
+
+/* contact */
+
+
+/* ---------LA BASE-------------  */
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+}
+.mainContainer .eachContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.eachContainer .titleContainer {
+    background-color: rgba(246, 234, 208, 1);
+    padding-left: 1.875rem;
+}
+
+.eachContainer .titleContainer h1 {
+    font-size: 35px;
+    font-family: "Inika", serif;
+}
+.eachContainer p, li, label, input {
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+}
+
+/* ---------Container 01-------------  */
+.container01 .contentContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem 0;
+}
+
+.container01 .contentContainer .eachContentContainer {
+    width: 48%;
+}
+.container01 .contentContainer .eachContentContainer01 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container01 .contentContainer.eachContentContainer02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container01 .contentContainer .eachContentContainer02 img {
+    width: 85%;
+}
+
+/* ---------Container 02-------------  */
+
+.container02 .contentContainer {
+    padding: 1.5rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+/* ---------Container 03-------------  */
+.container03 .contentContainer {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    padding-bottom: 2rem;
+}
+.container03 .contentContainer .eachContentContainer01 {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.container03 .contentContainer .eachContentContainer01 .formInsideContainer03 form {
+    width: 100%;
+    padding: 2.5rem 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(249, 233, 207, 1);
+    gap: 1rem;
+}
+
+.container03 .contentContainer .eachContentContainer01 .formInsideContainer03 form div {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 4rem;
+    align-items: center;
+}
+
+.container03 .contentContainer .eachContentContainer01 .formInsideContainer03 form input {
+    width: 50%;
+    height: 1.5rem;
+}
+
+.container03 .contentContainer .eachContentContainer01 .formInsideContainer03 form label {
+    width: 35%;
+    text-align: right;
+}
+
+.container03 .contentContainer .eachContentContainer01 .formInsideContainer03 form .submitButton {
+    display: flex;
+    justify-content: flex-end;
+    width: 95%;
+    padding-top: 1.5rem;
+}
+
+.container03 .contentContainer .eachContentContainer01 .formInsideContainer03 form .submitButton button {
+    all: unset;
+    padding: 0.7rem 1.5rem;
+    background-color: rgb(205, 205, 205);
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+}
+
+.container03 .contentContainer .eachContentContainer02 {
+    width: 28%;
+}
+
+.container03 .contentContainer .eachContentContainer02 img {
+    margin-top: 24px;
+    width: 100%;
+}
+
+/* ---------Container 04-------------  */
+
+.container04 .contentContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem 0;
+}
+
+.container04 .contentContainer .eachContentContainer {
+    width: 48%;
+}
+
+.container04 .contentContainer .eachContentContainer01 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: flex-start;
+}
+
+.container04 .contentContainer .eachContentContainer01 .firstPartText {
+    width: 40%;
+    text-align: center;
+}
+
+.container04 .contentContainer.eachContentContainer02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container04 .contentContainer .eachContentContainer02 img {
+    width: 85%;
+}
