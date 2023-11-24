@@ -1,3 +1,7 @@
+body{
+    margin:0;
+}
+
 header {
     display: flex;
     color : black;
@@ -9,7 +13,7 @@ header {
 header ul {
     margin: 0px;
     list-style: none;
-    font-size : 25px;
+    font-size : 20px;
     padding : 0 148px;
 }
 
@@ -64,9 +68,18 @@ hr{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    display: flex;
+    text-align: center;
+    border: 2px solid #9C917D;
+    background-color: #9C917D;
+    padding: 4px 8px; 
+    border-radius: 20px;
+    cursor: pointer;
+    height: 80%;
+    justify-content: center;
 }
 
-#logo
+#logoGalerie
 {
     width: 200px;
     height: 200px;
@@ -123,36 +136,467 @@ hr{
     align-items: center;
 }
 
-#identifier {
-    display: flex;
-    text-align: center;
-    border: 2px solid #9C917D;
-    background-color: #9C917D;
-    padding: 4px 8px; 
-    border-radius: 20px;
-    cursor: pointer;
-    height: 80%;
-    justify-content: center;
-}
-
-div p
+.préface
 {
     color: #000;
     text-align: center;
-    font-family: Inter;
-    font-size: 20px;
+    font-size: 18px;
     background-color: #F6E9D1;
     width: 100%;
-    height: 76px;
-    bottom: -10;
+    height: 75px;
+    display: flex;
 }
 
-h2 {
-    justify-content: center;
-    text-align: center;
+.préface p
+{
+    margin-top: 0;
+}
+
+.titre1acquisition{
+    display: flex;
+    height: 100px;
     font-family: Inika;
-    font-size: 40px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    background-color: #72887b;
+    justify-content: center;
+    align-items: center;
 }
+
+.titre1acquisition h2 {
+    margin: 0;
+}
+
+.imageligne1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.imageligne1 .bloc1,.imageligne1 .bloc2,.imageligne1 .bloc3 {
+    text-align: center; 
+}
+
+.imageligne1 img {
+    width: 300px;
+    height: 300px;
+    margin-top: 25px;
+}
+
+.imageligne1 h3 {
+    position: relative;
+    background-color: black;
+    opacity:0.7;
+    color: white; 
+    padding: 10px; 
+    margin-top: -50px;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    box-sizing: border-box;
+    top: -22px;
+}
+
+.imageligne1 .bloc1 h3,.imageligne1 .bloc2 h3,.imageligne1 .bloc3 h3 {
+    height: 20%; 
+}
+
+
+.prestations1 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    align-items: center;
+    margin-top:-28px;
+
+}
+
+.prestations1, .texte1presta,.text2presta ,.text3presta{
+    text-align: center; 
+}
+
+.texte1presta{
+    width: 25%;
+}
+
+.texte2presta{
+    width: 25%;
+}
+
+.texte3presta{
+    width:23%;
+    margin-right:10px;
+}
+span
+{
+    font-weight: bold;
+}
+
+
+
+.imageligne2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.imageligne2 .bloc4,.imageligne2 .bloc5,.imageligne2 .bloc6 
+{
+    text-align: center; 
+}
+
+.imageligne2 img {
+    width: 300px;
+    height: 300px;
+    margin-top: 25px;
+}
+
+.imageligne2 h3 {
+    position: relative;
+    background-color: black;
+    opacity:0.7;
+    color: white; 
+    padding: 10px; 
+    margin-top: -50px;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    box-sizing: border-box;
+    top: -22px;
+}
+
+.imageligne2 .bloc5 h3{
+    height: 20%; 
+}
+
+
+.prestations2 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    align-items: center;
+    margin-top:-28px;
+
+}
+
+.prestations2, .texte4presta,.text5presta ,.text6presta{
+    text-align: center; 
+}
+
+.texte4presta{
+    width: 25%;
+}
+
+.texte5presta{
+    width: 25%;
+}
+
+.texte6presta{
+    width:23%;
+    margin-right:10px;
+}
+
+.titre2acquisition{
+    display: flex;
+    height: 100px;
+    font-family: Inika;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #72887b;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageligne3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.imageligne3 .bloc7,.imageligne3 .bloc8,.imageligne3 .bloc9
+{
+    text-align: center; 
+}
+
+.imageligne3 img {
+    width: 300px;
+    height: 300px;
+    margin-top: 25px;
+}
+
+.prestations3 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    align-items: center;
+
+}
+
+.prestations3, .texte7presta,.text8presta ,.text9presta{
+    text-align: center; 
+}
+
+.texte7presta{
+    width: 25%;
+    margin-top:-5px;
+}
+
+.texte8presta{
+    width: 25%;
+    margin-top:-40px;
+}
+
+.texte9presta{
+    width:23%;
+    margin-right:10px;
+    margin-top:-40px;
+}
+
+.imageligne3 .bloc5 h3{
+    height: 20%; 
+}
+
+.imageligne4 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.imageligne4 .bloc10,.imageligne4 .bloc11,.imageligne4 .bloc12 {
+    text-align: center; 
+}
+
+.imageligne4 img {
+    width: 300px;
+    height: 300px;
+    margin-top: 25px;
+}
+
+.imageligne4 h3 {
+    position: relative;
+    background-color: black;
+    opacity:0.7;
+    color: white; 
+    padding: 10px; 
+    margin-top: -50px;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    box-sizing: border-box;
+    top: -26px;
+}
+
+.imageligne4 .bloc10 h3,.imageligne4 .bloc12 h3 {
+    height: 20%; 
+}
+
+
+.prestations4 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    align-items: center;
+    margin-top:-28px;
+
+}
+
+.prestations4, .texte10presta,.text11presta ,.text12presta{
+    text-align: center; 
+}
+
+.texte10presta{
+    width: 25%;
+    margin-top:-8px;
+}
+
+.texte11presta{
+    width: 25%;
+    margin-top:-8px;
+}
+
+.texte12presta{
+    width:23%;
+    margin-right:10px;
+    margin-top:-8px;
+}
+
+
+.bandeau {
+    background-color: #F6E9D1;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 100px;
+    flex-shrink: 0;
+}
+
+.adresse {
+    padding: 0px;
+    font-size: 12px;
+    margin-top: -3%;
+    max-width: 20%;
+}
+
+.adresse li
+{ 
+    list-style-type: circle;
+}
+
+.partenaires {
+    margin-left: auto;
+    max-width: 172px;
+    font-size: 15px;
+}
+
+.logo-partenaire1 img {
+    max-width: 129px;
+    margin-left: 10px;
+    flex-shrink: 0;
+}
+
+.logo-partenaire2 img {
+    max-width: 140px;
+    margin-left: 10px;
+    flex-shrink: 0;
+}
+
+.RS_bas {
+    flex-direction: column; 
+    display: flex;
+    margin-left: auto;
+    font-size: 15px;
+    line-height: 2.7;
+}
+
+.RS_bas i {
+    margin-right: 5px;
+}
+
+.bandeau2 {
+    background-color: #8E6852;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+
+.RS_bas2 {
+    margin-left: auto;
+    color: #FFF;
+}
+
+.RS_bas2 i {
+    margin-right: 10px;
+}
+
+.text_bas{
+    font-size: 15px;
+    max-height: 20px;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    color: #FFF;
+}
+
+@media only screen and (max-width: 430px) {
+    body {
+        margin: 0;
+    }
+
+    header {
+        display: flex;
+        color: black;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    header ul {
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    header ul li {
+        display: block;
+        padding: 10px 0;
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    #localisation,
+    #horaires,
+    #identifier {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #logoGalerie {
+        width: 100%;
+        height: auto;
+    }
+
+    .fresque::after {
+        height: 60%; 
+    }
+
+    .infos {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .prestations1,
+    .prestations2,
+    .prestations3,
+    .prestations4 {
+        text-align: center;
+    }
+
+    .imageligne1,
+    .imageligne2,
+    .imageligne3,
+    .imageligne4 {
+        flex-direction: column;
+    }
+
+    .imageligne1 img,
+    .imageligne2 img,
+    .imageligne3 img,
+    .imageligne4 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .imageligne1 h3,
+    .imageligne2 h3,
+    .imageligne3 h3,
+    .imageligne4 h3 {
+        margin-top: -10px; 
+    }
+
+    footer .bandeau {
+        padding: 20px;
+    }
+
+    footer .adresse {
+        max-width: none;
+        text-align: center;
+    }
+
+    footer .RS_bas {
+        margin-left: 0;
+    }
