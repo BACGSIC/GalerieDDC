@@ -1,228 +1,3 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    height: 100%;
-    flex-direction: column;
-}
-
-.bas {
-    /* /* position: fixed; */
-    bottom: 0;
-    width: 100%;
-}
-
-.bandeau {
-    background-color: #f6e9d1;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: nowrap;
-}
-
-.logo img {
-    max-width: 100px;
-    flex-shrink: 0;
-}
-
-.adresse {
-    list-style-type: none;
-    margin: 10px;
-    padding: 0px;
-    font-size: 12px;
-    max-width: 15%;
-}
-
-.partenaires {
-    margin-left: auto;
-    max-width: 172px;
-    font-size: 15px;
-}
-
-.logo-partenaire1 img {
-    max-width: 129px;
-    margin-left: 10px;
-    flex-shrink: 0;
-}
-
-.logo-partenaire2 img {
-    max-width: 140px;
-    margin-left: 10px;
-    flex-shrink: 0;
-}
-
-.RS_bas {
-    flex-direction: column;
-    display: flex;
-    margin-left: auto;
-    font-size: 15px;
-    line-height: 2.7;
-}
-
-.RS_bas i {
-    margin-right: 5px;
-}
-
-.bandeau2 {
-    background-color: #8e6852;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: nowrap;
-    height: 30px;
-}
-
-.RS_bas2 {
-    margin-left: auto;
-    color: #fff;
-}
-
-.RS_bas2 i {
-    margin-right: 10px;
-}
-
-.text_bas {
-    font-size: 15px;
-    max-height: 20px;
-    width: 85%;
-    display: flex;
-    justify-content: space-between;
-    margin-right: auto;
-    color: #fff;
-}
-
-.Baptiste {
-    display: flex;
-    color: black;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.Baptiste ul {
-    margin: 0px;
-    list-style: none;
-    font-size: 25px;
-    padding: 0 148px;
-}
-
-.Baptiste ul li {
-    display: inline-block;
-    padding: 0 40px;
-    cursor: pointer;
-    font-size: 0.8 rem;
-}
-
-hr {
-    border-bottom: 1px solid;
-}
-.active {
-    background-color: #f9e9cf;
-}
-
-#localisation {
-    width: 397px;
-    height: 72px;
-    flex-shrink: 0;
-    color: #fff;
-    font-family: Inter;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-#horaires {
-    width: 383px;
-    height: 40px;
-    flex-shrink: 0;
-    color: #fff;
-    font-family: Inter;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-#identifier {
-    width: 93px;
-    height: 33px;
-    flex-shrink: 0;
-    color: #fff;
-    font-family: Inter;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-#logoba {
-    width: 200px;
-    height: 200px;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-}
-
-#fresque {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0px;
-    list-style: none;
-    display: flex;
-}
-
-#bandeaugalerie {
-    width: 100%;
-    height: 239px;
-    background: url(<path-to-image>), lightgray -3.182px -0.121px / 100% 460.032% no-repeat;
-}
-
-.fresque {
-    position: relative;
-}
-
-.fresque::after {
-    content: "";
-    display: block;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 37%;
-    background-color: black;
-    opacity: 0.6;
-    z-index: 1;
-}
-
-.fresque .infos {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    position: absolute;
-    bottom: 0;
-    width: 98%;
-    z-index: 2;
-    padding: 10px;
-    align-items: center;
-}
-
-#identifier {
-    display: flex;
-    text-align: center;
-    border: 2px solid #9c917d;
-    background-color: #9c917d;
-    padding: 4px 8px;
-    border-radius: 20px;
-    cursor: pointer;
-    height: 80%;
-    justify-content: center;
-}
-#Horaires {
-    background-color: red;
-}
-
-
-
-/* contact */
 
 
 /* ---------LA BASE-------------  */
@@ -244,7 +19,10 @@ hr {
     font-size: 35px;
     font-family: "Inika", serif;
 }
-.eachContainer p, li, label, input {
+.eachContainer p,
+li,
+label,
+input {
     font-size: 24px;
     font-family: "Inter", sans-serif;
 }
@@ -290,6 +68,7 @@ hr {
 .container03 .contentContainer {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 4rem;
     padding-bottom: 2rem;
 }
@@ -334,7 +113,7 @@ hr {
     padding-top: 1.5rem;
 }
 
-.container03 .contentContainer .eachContentContainer01 .formInsideContainer03 form .submitButton button {
+.container03  .contentContainer  .eachContentContainer01  .formInsideContainer03  form  .submitButton button {
     all: unset;
     padding: 0.7rem 1.5rem;
     background-color: rgb(205, 205, 205);
@@ -385,4 +164,169 @@ hr {
 
 .container04 .contentContainer .eachContentContainer02 img {
     width: 85%;
+}
+
+/* RESPONSIVE  */
+
+/* POSSIBLE RESPONSIVE VERSIONS BEFORE 430 PX*/
+/* @media screen and (max-width: 1214px) {
+    .container03 .contentContainer {
+        justify-content: space-between;
+        padding: 2rem 4rem;
+    }
+    .container03 .contentContainer .eachContentContainer01 {
+        width: 60%;
+    }
+    .container03 .contentContainer .eachContentContainer02 {
+        width: 40%;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 924px) {
+    .container03 .contentContainer {
+        flex-direction: column;
+        gap: 4rem;
+        padding-bottom: 2rem;
+    }
+    .container03 .contentContainer .eachContentContainer01 {
+        width: 100%;
+    }
+    .container03 .contentContainer .eachContentContainer02 {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .container04 .contentContainer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .container04 .contentContainer .eachContentContainer01 {
+        width: 80%;
+        margin: 1rem 2rem;
+    }
+    .container04 .contentContainer .eachContentContainer01 .firstPartText {
+        width: 80%;
+    }
+    .container04 .contentContainer .eachContentContainer01 .secondPartText {
+        width: 80%;
+
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        flex-direction: column;
+        text-align: left;
+    }
+    .container04 .contentContainer .eachContentContainer02 {
+        width: 100%;
+        text-align: center;
+    }
+} */
+
+@media screen and (max-width: 435px) {
+    .eachContainer p,
+    li,
+    label,
+    input {
+        font-size: 20px;
+        font-family: "Inter", sans-serif;
+    }
+    .titleContainer {
+        text-align: center;
+        padding: 0;
+    }
+
+    /* CONTAINER 1 RESPONSIVE*/
+    .container01 .contentContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .container01 .contentContainer .eachContentContainer01 {
+        width: 80%;
+    }
+    .container01 .contentContainer .eachContentContainer02 {
+        width: 95%;
+        text-align: center;
+    }
+
+    /* CONTAINER 2 RESPONSIVE*/
+    .container02 .contentContainer {
+        padding: 1.5rem 1.3rem;
+    }
+
+    /* CONTAINER 3 RESPONSIVE*/
+    .container03 .contentContainer {
+        flex-direction: column;
+        gap: 1.2rem;
+        padding-bottom: 2rem;
+    }
+    .container03 .contentContainer .eachContentContainer {
+        width: 85%;
+        text-align: center;
+        gap: 1.2rem;
+    }
+
+    .container03 .contentContainer .eachContentContainer01 .formInsideContainer03 form {
+        width: 100%;
+    }
+
+    .container03 .contentContainer .eachContentContainer01 .formInsideContainer03 form div {
+        display: flex;
+        gap: 0.5rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container03 .contentContainer .eachContentContainer01 .formInsideContainer03 form div label {
+        text-align: left;
+        width: 70%;
+    }
+    .container03 .contentContainer .eachContentContainer01 .formInsideContainer03 form div input {
+        width: 70%;
+        height: 2.5rem;
+    }
+
+    .container03.contentContainer .eachContentContainer01 .formInsideContainer03 form .submitButton {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        width: 95%;
+        padding-top: 2rem;
+    }
+    .container03  .contentContainer  .eachContentContainer01  .formInsideContainer03  form  .submitButton  button {
+        padding: 0.7rem 3rem;
+    }
+
+    /* CONTAINER 4 RESPONSIVE*/
+    .container04 .contentContainer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 100%;
+        padding: 1.5rem 0 0 0;
+    }
+    .container04 .contentContainer .eachContentContainer01 {
+        width: 98%;
+        margin: 1rem 0.2rem;
+    }
+    .container04 .contentContainer .eachContentContainer01 .firstPartText {
+        width: 80%;
+    }
+    .container04 .contentContainer .eachContentContainer01 .secondPartText {
+        width: 100%;
+        text-align: left;
+    }
+    .container04 .contentContainer .eachContentContainer02 {
+        padding: 1.2rem 0;
+        width: 100%;
+        text-align: center;
+        background-color: rgba(246, 234, 208, 1);
+    }
 }
