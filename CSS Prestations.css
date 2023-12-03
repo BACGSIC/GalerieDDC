@@ -10,14 +10,14 @@ header {
    
 }
 
-header ul {
+ul {
     margin: 0px;
     list-style: none;
     font-size : 20px;
     padding : 0 148px;
 }
 
-header ul li {
+ul li {
     display: inline-block;
     padding : 0 40px;
     cursor: pointer;
@@ -510,93 +510,76 @@ span
     color: #FFF;
 }
 
-@media only screen and (max-width: 430px) {
-    body {
-        margin: 0;
-    }
+.texte1presta:hover
+{
+    font-size: 20px;
+}
 
-    header {
-        display: flex;
-        color: black;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: column;
-    }
+.texte2presta:hover
+{
+    font-size: 20px;
+}
 
-    header ul {
-        padding: 20px 0;
-        text-align: center;
-    }
+.texte3presta:hover
+{
+    font-size: 20px;
+}
 
-    header ul li {
-        display: block;
-        padding: 10px 0;
-    }
+.texte4presta:hover
+{
+    font-size: 20px;
+}
 
-    hr {
-        width: 100%;
-    }
+.texte5presta:hover
+{
+    font-size: 20px;
+}
 
-    #localisation,
-    #horaires,
-    #identifier {
-        width: 100%;
-        text-align: center;
-        margin-top: 10px;
-    }
+.texte6presta:hover
+{
+    font-size: 20px;
+}
 
-    #logoGalerie {
-        width: 100%;
-        height: auto;
-    }
+.texte7presta:hover
+{
+    font-size: 20px;
+}
 
-    .fresque::after {
-        height: 60%; 
-    }
+.texte8presta:hover
+{
+    font-size: 20px;
+}
 
-    .infos {
-        padding: 10px;
-        text-align: center;
-    }
+.texte9presta:hover
+{
+    font-size: 20px;
+}
 
-    .prestations1,
-    .prestations2,
-    .prestations3,
-    .prestations4 {
-        text-align: center;
-    }
+.texte10presta:hover
+{
+    font-size: 20px;
+}
 
-    .imageligne1,
-    .imageligne2,
-    .imageligne3,
-    .imageligne4 {
-        flex-direction: column;
-    }
+.texte11presta:hover
+{
+    font-size: 20px;
+}
 
-    .imageligne1 img,
-    .imageligne2 img,
-    .imageligne3 img,
-    .imageligne4 img {
-        width: 100%;
-        height: auto;
-    }
+.texte12presta:hover
+{
+    font-size: 20px;
+}
 
-    .imageligne1 h3,
-    .imageligne2 h3,
-    .imageligne3 h3,
-    .imageligne4 h3 {
-        margin-top: -10px; 
-    }
+.RS_bas:hover
+{
+    color:#8E6852;
+    font-size:16px;
+}
 
-    footer .bandeau {
-        padding: 20px;
-    }
+header ul li:hover
+{
+color:#72887b;
+font-weight: bold;
+font-size: 25px;
+}
 
-    footer .adresse {
-        max-width: none;
-        text-align: center;
-    }
-
-    footer .RS_bas {
-        margin-left: 0;
-    }
