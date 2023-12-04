@@ -4,9 +4,7 @@ header {
     display: flex;
     flex-direction: column;
 }
-/* ----------------------------- */
 
-/* ----- MAIN CLASS IN HEADER -----  */
 .navigationHeader {
     width: 100%;
     display: flex;
@@ -23,9 +21,9 @@ header {
     color: white;
     font-family: "Inter", sans-serif;
 }
-/* ----------------------------- */
 
-/* ----- NAVIGATION HEADER -----  */
+
+
 .imgNavigationContainer {
     width: 12.5%;
 }
@@ -60,9 +58,9 @@ header {
 .active {
     background-color: rgba(249, 233, 207, 1);
 }
-/* ----------------------------- */
 
-/* ----- BANNER HEADER -----  */
+
+
 .bannerContentContainer {
     display: flex;
     justify-content: space-around;
@@ -98,7 +96,7 @@ header {
 .bannerContentContainer div .size {
     font-size: 40px;
 }
-/* ----------------------------- */
+
 
 /* --------- MEDIA QUERIES HEADER --------- */
 @media screen and (max-width: 600px) {
@@ -127,9 +125,7 @@ header {
         margin: 0;
         font-size: 16px;
     }
-    /* ------------- */
 
-    /* BANNER HEADER */
     .bannerHeader {
         position: relative;
     }
@@ -170,7 +166,6 @@ header {
         top: 10px;
         right: 12px;
     }
-    /* ------------- */
 }
 
 footer {
