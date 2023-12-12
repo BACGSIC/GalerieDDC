@@ -890,3 +890,72 @@ footer {
         font-size: 12px;
     }
 }
+
+.préface,
+.préface2 {
+    height: auto;
+}
+
+.préface p,
+.préface2 p {
+    padding-top: 1rem;
+    font-size: 30px;
+    text-align: center;
+}
+
+.remy1,
+.remy2,
+.remy3,
+.alex1,
+.alex2,
+.alex3 {
+    flex-direction: column;
+    align-items: center;
+}
+
+.remy1 p,
+.remy2 p,
+.remy3 p,
+.alex1 p,
+.alex2 p,
+.alex3 p {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+#img1,
+#img2 {
+    width: 45%;
+    height: auto;
+    margin-left: 0%;
+}
+
+#img3,
+#img4,
+#img5,
+#img6,
+#imga1,
+#imga2,
+#imga3,
+#imga4,
+#imga5,
+#imga6 {
+    width: 45%;
+    height: auto;
+}
+
+#txt1,
+#txt2,
+#txt3,
+#txt4,
+#txt5,
+#txt6,
+#text1,
+#text2,
+#text3,
+#text4,
+#text5,
+#text6 {
+    margin: 1rem 0;
+    text-align: center;
+}
