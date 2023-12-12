@@ -1,4 +1,4 @@
-.subHeader 
+.subHeader
 {
     background-color: #f6e9d1;
     font-family: "Inter", sans-serif;
@@ -111,6 +111,12 @@
     transition:4s;
 }
 
+.eachCellsImgsContainer:hover
+
+{
+    transform: scale(1.1) rotate(5deg);
+}
+
 @media screen and (max-width: 600px) 
 {
     .mainContentContainer 
@@ -125,9 +131,5 @@
     .mainContentContainer .mainContentContainerEachCells 
     {
         width: 80%;
-    }
-    .subHeader 
-    {
-        font-size: 14px;
     }
 }
