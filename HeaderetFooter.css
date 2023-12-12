@@ -22,8 +22,6 @@ header {
     font-family: "Inter", sans-serif;
 }
 
-
-
 .imgNavigationContainer {
     width: 12.5%;
 }
@@ -58,8 +56,6 @@ header {
 .active {
     background-color: rgba(249, 233, 207, 1);
 }
-
-
 
 .bannerContentContainer {
     display: flex;
@@ -96,7 +92,6 @@ header {
 .bannerContentContainer div .size {
     font-size: 40px;
 }
-
 
 /* --------- MEDIA QUERIES HEADER --------- */
 @media screen and (max-width: 600px) {
@@ -167,6 +162,11 @@ header {
         right: 12px;
     }
 }
+
+
+
+
+
 
 footer {
     width: 100%;
@@ -254,6 +254,8 @@ footer {
     height: 90%;
 }
 
+
+/* --------- MEDIA QUERIES FOOTER --------- */
 @media screen and (max-width: 600px) {
     .mainContentFooter {
         width: 100vw;
@@ -271,8 +273,7 @@ footer {
         padding: 0;
         gap: 0.4rem;
     }
-    .leftSideFooterContainer .leftSideFooterTextContainer li,
-    .leftSideFooterContainer .leftSideFooterTextContainer p {
+    .leftSideFooterContainer .leftSideFooterTextContainer li .leftSideFooterContainer .leftSideFooterTextContainer p {
         font-size: 10px;
     }
 
