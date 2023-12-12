@@ -369,6 +369,7 @@ header ul li:hover
 color:#72887b;
 font-weight: bold;
 font-size: 25px;
+transition:2s;
 }
 
 .centerFooterContainer:hover
