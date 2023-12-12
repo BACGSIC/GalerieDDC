@@ -11,6 +11,19 @@ body {
     font-family: Inter;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 #ExpoA {
     color: #000;
     font-family: Inika;
@@ -27,6 +40,7 @@ body {
     height: 422px;
     flex-shrink: 0;
     background-color: #9C917D;
+    overflow: hidden;
 }
 
 .AB1 .txt {
@@ -35,6 +49,7 @@ body {
     font-size: 27px;
     font-weight: 700;
     margin-left: 40px;
+    width: 100%;
 }
 
 .imgs1{
@@ -105,6 +120,15 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
 #ExpoB {
     color: #000;
     font-family: Inika;
@@ -120,6 +144,7 @@ body {
     height: 422px;
     flex-shrink: 0;
     background-color: #F6E9D1;
+    overflow: hidden;
 }
 
 .AB2 .txt {
@@ -196,12 +221,19 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
 .BNT {
     display: flex;
-    flex-wrap: nowrap;
 }
-
-
 
 .BNT1 {
     width: 50%;
@@ -217,9 +249,9 @@ body {
 }
 
 .BNT2 {
-    width: 50%;
     height: 420px;
     flex-shrink: 0;
+    width: 50%;
     background-color: #F6E9D1;
 }
 
@@ -411,20 +443,29 @@ body {
         text-align: center;
     }
 
+    .BNT {
+        display: flex;
+        flex-wrap: wrap;  /* Change flex-wrap to wrap for responsiveness */
+    }
+
     .BNT1 {
-        width: 100%;
-        height: 420px;
-        flex-shrink: 0;
-        background-color: #9C917D;
+        width: 100%;  /* Set the width to 100% for full width on small screens */
+        height: 430px; /* Set the width to 100% for full width on small screens */
+        flex-shrink: 0; /* Set the width to 100% for full width on small screens */
     }
 
     .BNT2 {
-        width: 100%;
-        height: 420px;
-        flex-shrink: 0;
-        background-color: #F6E9D1;
-        margin-top: 500px;
-        margin-left: -400;
+        width: 100%;  /* Set the width to 100% for full width on small screens */
+        height: 350px; /* Set the width to 100% for full width on small screens */
+        flex-shrink: 0; /* Set the width to 100% for full width on small screens */
+    }
+
+    .txt8 {
+        padding-top: 50px;
+    }
+
+    .img7 {
+        margin-bottom: 100px;
     }
 
 }
