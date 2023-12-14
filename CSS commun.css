@@ -1,4 +1,4 @@
-        /* Gautier*/
+        /*-------ACCUEIL-------*/
 
 body {
     margin : 0;
@@ -375,7 +375,16 @@ body {
 
 }
 
-        /*Antoine*/ 
+
+
+
+
+
+
+
+
+
+        /*-------EXPOSITIONS-------*/ 
 
 .préface
 {
@@ -799,7 +808,14 @@ span
     margin-left: 460px;
 }
 
-        /* Baptiste*/
+
+
+
+
+
+
+
+        /*-------PRESTATIONS-------*/
 
 .subHeader
 {
@@ -958,7 +974,11 @@ span
     font-size: 40px;
 }
 
-    /* Clara*/
+
+
+
+
+    /*-------CONTACT-------*/
 
 .mainContainer {
     display: flex;
