@@ -97,9 +97,9 @@ li a {
     font-size: 40px;
 }
 
-/* --------- MEDIA QUERIES HEADER --------- */
+/* --------- HEADER RESPONSIVE --------- */
 @media screen and (max-width: 600px) {
-    /* NAVIGATION HEADER */
+   
     .navigationHeader {
         justify-content: center;
     }
