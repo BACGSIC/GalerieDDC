@@ -386,426 +386,223 @@ body {
 
         /*-------EXPOSITIONS-------*/ 
 
-.préface
-{
-    color: #000;
-    width: 100%;
-    height: 80px;
-}
 
-.préface p
-{
-    margin-top: 0;
-    padding-left: 30px;
-    background-color: #9C917D;
-    padding-top: 23px;
+.chaqueBlocPrincipal {
+    display: flex;
+    flex-direction: column;
     font-family: Inika;
-    font-size: 28px;
 }
-
-span
-{
-    font-weight: bold;
-}
-
-.remy1
-{
+.preface {
     width: 100%;
-    text-align: center;
+    padding: 1.5rem 0;
+    background-color: #9c917d;
+}
+.preface p {
+    padding-left: 2rem;
+    margin: 0;
+    font-size: 1.75rem;
+}
+.Rangee {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    width: calc(100% - 4rem);
+    padding: 3rem 2rem;
+    height: 70vh;
+    position: relative;
 }
 
-.remy1 p
-{
-    width: 370px;
-    height: 407px;
-    text-align: center;
-    font-family: Inika;
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 130px;
-    margin-left: 10px;
-}
 
-#img1
-{
-    width: 350px;
-    height: 465.68px;
-    margin-left: 30px;
-}
-
-#img2
-{
-    width: 386px;
-    height: 308px;
-    margin-right: 20px;
-}
-
-#txt1
-{
-    width: 308px;
-    height: 54px;
-    text-align: center;
-    font-family: Inter;
-    font-size: 12px;
-    font-weight: 400;
-    margin-left: 465px;
-    margin-top: -45px;;
-}
-
-#txt2
-{
-    width: 308px;
-    height: 54px;
-    text-align: center;
-    font-family: Inter;
-    font-size: 12px;
-    font-weight: 400;
-    margin-left: 895px;
-    margin-top: -145px;;
-}
-
-.inter1
-{
-    background-color: black;
-    width: 50%;
-    height: 1px;
-    margin-top: 120px;
-    margin-left: 25%;
-}
-
-.remy2
-{
-    width: 100%;
-    text-align: center;
+.BlocImage {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
+    height: 100%;
 }
 
-.remy2 p
-{
-    width: 360px;
-    height: 407px;
-    text-align: center;
+.BlocImage {
+    width: 45%;
+}
+
+.Bloc2eRangee {
+    width: 24%;
+}
+
+.Bloc3eRangee {
+    width: 25%;
+}
+
+.BlocImage p {
     font-family: Inter;
+    text-align: center;
     font-size: 16px;
-    font-weight: 400;   
-    margin-top: 100px;
-    margin-right: 40px;
+    font-weight: 400;
 }
 
-#img3
-{
-    width: 300px;
-    height: 3OOpx;
-    margin-left: 10px;
-    margin-top: -130px;
+.BlocImage .boldText {
+    font-weight: bolder;
 }
 
-#img4
-{
-    width: 430px;
-    height: 410px;
-    margin-top: 100px;
-    margin-right: 40px;
-}
-
-#txt3
-{
-    width: 308px;
-    height: 54px;
-    text-align: center;
+.Bloc2eRangee p .Bloc3eRangee p {
     font-family: Inter;
     font-size: 12px;
     font-weight: 400;
-    margin-left: -8px;
-    margin-top: -175px;
-}
-
-#txt4
-{
-    width: 308px;
-    height: 54px;
+    margin: 0;
+    padding: 0;
     text-align: center;
-    font-family: Inter;
-    font-size: 12px;
-    font-weight: 400;
-    margin-left: 400px;
-    margin-top: 115px;;
 }
 
-.inter2
-{
-    background-color: black;
-    width: 50%;
-    height: 1px;
-    margin-left: 25%;
-    margin-top: 30px;
+.BlocImage img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
 }
 
-.remy3
-{
-    width: 100%;
-    text-align: center;
+.premierContainerRembrandtsson .Rangee:nth-child(3n) {
+    flex-direction: row-reverse;
+}
+
+.premierContainerRembrandtsson .Rangee1 .Bloc2eRangee img {
+    height: 100%;
+}
+
+.premierContainerRembrandtsson .Rangee2 {
+    align-items: end;
+}
+.premierContainerRembrandtsson .Rangee2 .BlocImage {
+    width: 48%;
+}
+.premierContainerRembrandtsson .Rangee2 .Bloc2eRangee {
+    width: 27%;
+}
+
+.premierContainerRembrandtsson .Rangee2 .Bloc3eRangee {
+    width: 22%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    margin-top: 20px;
+    flex-direction: column;
 }
 
-.remy3 p
-{
-    width: 360px;
-    height: 407px;
-    text-align: center;
-    font-family: Inika;
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 70px;
-    margin-left: 20px;
+
+.premierContainerRembrandtsson .Rangee3 .BlocImage {
+    width: 52%;
+}
+.premierContainerRembrandtsson .Rangee3 .Bloc2eRangee {
+    width: 22%;
 }
 
-#img5
-{
-    width: 359px;
-    height: 376px;
-    margin-top: 90px;
-    margin-left: 20px;
-}
-
-#img6
-{
-    width: 377px;
-    height: 427px;
-    margin-right: 40px;
-}
-
-#txt5
-{
-    width: 308px;
-    height: 54px;
-    text-align: center;
-    font-family: Inter;
-    font-size: 12px;
-    font-weight: 400;
-    margin-left: 470px;
-    margin-top: -15px;;
-}
-
-#txt6
-{
-    width: 308px;
-    height: 54px;
-    text-align: center;
-    font-family: Inter;
-    font-size: 12px;
-    font-weight: 400;
-    margin-left: 900px;
-    margin-top: -85px;;
-}
-
-.préface2
-{
-    color: #000;
-    background-color: #9C917D;
-    width: 100%;
-    height: 80px;
-    width: 100%;
-    margin-top: 4%;
-}
-
-.préface2 p
-{
-    margin-top: 0;
-    padding-left: 30px;
-    padding-top: 23px;
-    font-family: Inika;
-    font-size: 28px;
-}
-
-.alex1
-{
-    width: 100%;
-    text-align: center;
+.premierContainerRembrandtsson .Rangee3 .Bloc3eRangee {
+    width: 22%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
+    flex-direction: column;
 }
 
-.alex1 p
-{
-    width: 360px;
-    height: 407px;
-    text-align: center;
-    font-family: Inika;
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 120px;
-    margin-right: 50px;
+
+
+.deuxiemeContainerWardell .Rangee:nth-child(2n) {
+    flex-direction: row-reverse;
 }
 
-#imga1
-{
-    width: 300px;
-    height: 300px;
-    margin-left: 20px;
+
+.deuxiemeContainerWardell .Rangee1 .BlocImage {
+    width: 45%;
 }
 
-#imga2
-{
-    width: 380px;
-    height: 400px;
-    margin-right: 40px;
+.deuxiemeContainerWardell .Rangee1 .Bloc2eRangee {
+    width: 30%;
 }
 
-#text1
-{
-    width: 308px;
-    height: 54px;
-    text-align: center;
-    font-family: Inter;
-    font-size: 12px;
-    font-weight: 400;
-    margin-top: -120px;
-    margin-left: 10px;
+.deuxiemeContainerWardell .Rangee1 .Bloc3eRangee {
+    width: 22%;
 }
 
-#text2
-{
-    width: 308px;
-    height: 54px;
-    text-align: center;
-    font-family: Inter;
-    font-size: 12px;
-    font-weight: 400;
-    margin-left: 410px;
-    margin-top: -18px;;
+
+
+
+.deuxiemeContainerWardell .Rangee2 .BlocImage {
+    width: 45%;
 }
 
-.alex2
-{
-    width: 100%;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.deuxiemeContainerWardell .Rangee2 .Bloc2eRangee {
+    width: 22%;
 }
 
-.alex2 p
-{
-    width: 360px;
-    height: 407px;
-    text-align: center;
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 100px;
-    margin-left: 40px;
+.deuxiemeContainerWardell .Rangee2 .Bloc3eRangee {
+    width: 30%;
 }
 
-#imga3
-{
-    width: 290px;
-    height: 290px;
-    margin-right: -20px;
+
+.deuxiemeContainerWardell .Rangee3 .BlocImage {
+    width: 48%;
 }
 
-#imga4
-{
-    width: 350px;
-    height: 410px;
-    margin-top: -40px;
-    margin-right: 50px;
+.deuxiemeContainerWardell .Rangee3 .Bloc2eRangee {
+    width: 28%;
 }
 
-#text3
-{
-    width: 308px;
-    height: 54px;
-    text-align: center;
-    font-family: Inter;
-    font-size: 12px;
-    font-weight: 400;
-    margin-left: 490px;
-    margin-top: -116px;
+.deuxiemeContainerWardell .Rangee3 .Bloc3eRangee {
+    width: 21%;
 }
 
-#text4
-{
-    width: 308px;
-    height: 54px;
-    text-align: center;
-    font-family: Inter;
-    font-size: 12px;
-    font-weight: 400;
-    margin-left: 900px;
-    margin-top: -26px;;
+@media screen and (max-width: 600px) {
+    .chaqueBlocPrincipal {
+        gap: 2rem;
+    }
+
+    .Rangee {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: center;
+        gap: 0.4rem;
+        margin: 0;
+    }
+
+    .BlocImage {
+        flex: 0 0 100%;
+    }
+
+    .Bloc2eRangee,
+    .Bloc3eRangee {
+        min-width: 30%;
+        max-width: 40%;
+        order: 1;
+        height: 20rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Bloc2eRangee img .Bloc3eRangee img {
+        width: 100%;
+        height: auto; 
+        background-color: rgb(51, 153, 65);
+    }
+
+    .Bloc1ereRangee {
+        max-width: 80%;
+        order: 2;
+    }
+
+    .Bloc1ereRangee p {
+        font-size: 18px;
+        line-height: 21.78px;
+    }
+
+    .preface {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 1rem;
+    }
+    .preface p {
+        padding: 0.5rem;
+        font-size: 25px;
+        text-align: center;
+    }
 }
 
-.alex3
-{
-    width: 100%;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.alex3 p
-{
-    width: 360px;
-    height: 407px;
-    text-align: center;
-    font-family: Inika;
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 40px;
-    margin-left: 10px;
-    margin-right: 40px;
-}
-
-#imga5
-{
-    width: 350px;
-    height: 356px;
-    margin-top: -40px;
-    margin-left: 20px;
-}
-
-#imga6
-{
-    width: 380px;
-    height: 447px;
-    margin-left: 30px;
-    margin-right: 21px;
-}
-
-#text5
-{
-    width: 308px;
-    height: 54px;
-    text-align: center;
-    font-family: Inter;
-    font-size: 12px;
-    font-weight: 400;
-    margin-left: 35px;
-    margin-top: -70px;;
-}
-
-#text6
-{
-    width: 308px;
-    height: 54px;
-    text-align: center;
-    font-family: Inter;
-    font-size: 12px;
-    font-weight: 400;
-    margin-left: 460px;
-}
 
 
 
