@@ -57,6 +57,10 @@ header {
     background-color: rgba(249, 233, 207, 1);
 }
 
+li a {
+    text-decoration:none;
+}
+
 .bannerContentContainer {
     display: flex;
     justify-content: space-around;
